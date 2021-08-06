@@ -1,0 +1,142 @@
+/* ------------------------------------------------
+  Project:   ITsolve - IT Solution and Services Template
+  Author:    ThemeHt
+------------------------------------------------ */
+
+
+/* ------------------------
+    Responsive Css
+------------------------*/
+
+@media (max-width: 1200px){
+.navbar-nav .nav-item{margin: 0 10px;}
+}
+
+
+@media (max-width: 992px){
+h1{font-size: 60px; line-height: 70px;}
+h2{font-size: 36px; line-height: 46px;}
+h3 {font-size: 24px; line-height: 30px;}
+h4 {font-size: 20px; line-height: 26px;}
+h5 {font-size: 18px; line-height: 28px;}
+h6 {font-size: 17px; line-height: 26px;}
+
+
+.md-mt-0{margin-top: 0 !important}
+.md-bg-none{background-image: none !important;}
+.md-h-auto{height: auto !important;}
+
+
+/*Header*/
+#header-wrap .logo-sticky{display: block;}
+.navbar-toggler {background: none; height: 34px; width: 40px; padding: 0; border-radius: 0; margin: 0; border: 1px solid #ffffff}
+.navbar-nav ul{position: static;}
+.navbar-nav > .nav-item{margin: 0;}
+.navbar-nav .nav-link{padding: 10px !important; color: #0d2c13;}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item.show .nav-link{background: rgba(251,59,60,0.1); color: #0049d0}
+.navbar-collapse { background:#ffffff; max-height: 400px; left: 0; padding: 10px; position: absolute; z-index: 99; top: 55px; width: 100%; overflow: auto; border: medium none; -webkit-box-shadow: 7px 5px 30px rgba(72,73,121,0.15); -moz-box-shadow: 7px 5px 30px rgba(72,73,121,0.15); box-shadow: 7px 5px 30px rgba(72,73,121,0.15);}
+.navbar-toggler span {width: 26px; height: 2px; margin: 5px auto; display: block; background: #ffffff;}
+.navbar-nav .dropdown-toggle::after{background: none !important; position: absolute; border:none; top: 50%; right: 0; margin: -0.5em 0.5em 0 0; border-radius: .25rem; padding: 0; width: 2em; height: 1.4em; font-size: 1.25rem; line-height: 1.2em; text-align: center;}
+.navbar-nav .dropdown-toggle::after {content: '+';}
+.navbar-nav .dropdown.show > .dropdown-toggle::after {content: '-';}
+.navbar-nav .dropdown-submenu .dropdown-toggle::after {right: 20px; width: auto; height: auto; margin-right: 0;}
+
+.header-2 .navbar-toggler,
+.header-3 .navbar-toggler,
+.header-4 .navbar-toggler {background: #0d2c13; border: 1px solid #0d2c13}
+
+
+/*Banner*/
+.fullscreen-banner {min-height: inherit; height: auto !important;;}
+.fullscreen-banner .align-center{position: inherit; transform: inherit; padding: 150px 0 150px !important}
+.banner-4 .custom-py-2 {padding-top: 10rem !important; padding-bottom: 5rem !important;}
+.page-title {padding: 160px 0;}
+.page-title h1 {font-size: 40px; line-height: 50px;}
+.hero-shape1 {display: none;}
+
+
+/*Side Image*/
+.image-column {left: 0; position: relative; top: inherit; transform: inherit;}
+.image-column-h{min-height: 300px;}
+
+
+/*Countdown*/
+.countdown > li span {font-size: 60px; line-height: 70px;}
+.countdown > li p{font-size: 18px;}
+
+
+/*Other*/
+.testimonial.style-2 .testimonial-quote { left: inherit; opacity: 0.1; right: 0; }
+.nav-style2.nav-top .owl-nav { top: inherit; bottom: 0; }
+.bg-effect::after{display: none;}
+p br, .title br{display: none;}
+}
+
+
+@media (max-width: 767px){
+h2{font-size: 30px;}
+h3 {font-size: 22px; line-height: 30px;}
+.hidden-sm{display: none !important;}
+.section-title h2{font-size: 34px; line-height: 40px;}
+.section-title p {font-size: 16px;}
+.page-title h1 {font-size: 30px; line-height: 30px;}
+.text-large {font-size: 80px; line-height: 80px;}
+
+/*Header*/
+.navbar-toggler{margin-right: 15px;}
+.navbar-brand {font-size: 2.5rem;}
+
+
+/*Banner*/
+.sm-bg-cover {background-size: cover;}
+
+
+/*Countdown*/
+.countdown > li span {font-size: 40px; line-height: 40px;}
+.countdown > li p{font-size: 16px;}
+
+
+/*Other*/
+.ht-progress-bar h4 {width: 20%;}
+.comment-reply { padding: 10px 20px; display: inline-block; }
+
+}
+
+
+@media (max-width: 576px){
+.col-xx-12{width: 100% !important;}
+h1{font-size: 36px; line-height: 40px;}
+h2{font-size: 28px; line-height: 36px; margin-bottom: 10px;}
+h3 {font-size: 20px; line-height: 28px;}
+h4 {font-size: 18px; line-height: 26px;}
+.section-title h2{font-size: 28px; line-height: 36px;}
+.text-large { font-size: 40px; line-height: 40px; }
+
+
+/*Banner*/
+.fullscreen-banner p br{display: none;}
+.breadcrumb-item {line-height: 30px;}
+.page-title {padding: 160px 0 110px;}
+
+
+/*Banner*/
+.tab .nav-tabs .nav-link { display: block; width: 100%; }
+.owl-carousel .owl-nav button.owl-prev { left: 0px; }
+.owl-carousel .owl-nav button.owl-next { right: 0px; }
+
+/*Other*/
+.ht-progress-bar h4 {width: 28%;}
+.ht-progress-bar .progress {width: 45%;}
+.counter-box {position: relative !important;}
+.counter h6 {font-size: 18px;}
+.testimonial-content p {font-size: 16px; line-height: 24px;}
+.social-icons.footer-social li a { height: 45px; width: 45px; line-height: 45px; font-size: 26px; }
+#mc-form { display: block; }
+#mc-form input[type="email"] { width: 100%; margin-bottom: 15px; }
+}
+
+
+@media (max-width: 375px){
+.btn + .btn {margin-left: 0; margin-top: 15px;}
+}
